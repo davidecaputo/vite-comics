@@ -4,7 +4,8 @@
 </script>
 
 <template>
-  <div class="d-flex flex-column">
+  <div class="d-flex flex-column justify-content-center">
+
     <span>Prova</span>
     <span>Prova</span>
   </div>
