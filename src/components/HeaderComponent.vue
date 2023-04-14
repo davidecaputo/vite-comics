@@ -27,12 +27,12 @@
 <style lang="scss" scoped>
     li{
         cursor: pointer;
-        
+
         &::after{
         display: block;
         content: '';
         width: 100%;
-        height: 260%;
+        height: 235%;
         border-bottom: 4px solid transparent;
         }
 

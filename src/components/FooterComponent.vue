@@ -68,9 +68,10 @@
     }
 
     .logo{
-        width: 50%;
+        width: 30%;
         background-image: url(../../public/img/dc-logo-bg.png);
         background-repeat: no-repeat;
-        background-size: contain;
+        background-size: cover;
+        background-position: center;
     }
 </style>
