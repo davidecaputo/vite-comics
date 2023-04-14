@@ -26,6 +26,8 @@
 
 <style lang="scss" scoped>
     li{
+        cursor: pointer;
+        
         &::after{
         display: block;
         content: '';
