@@ -41,6 +41,15 @@
                     <li>DC Universe</li>
                     <li>DC Power Visa</li>
                 </ul>
+                <div class="logo"></div>
+            </div>
+        </div>
+        <div class="footer-down">
+            <div class="container">
+                <div><span>Sign-up now!</span></div>
+                <div class="">
+                    <span>Follow us</span>
+                </div>
             </div>
         </div>
     </footer>
@@ -56,5 +65,12 @@
     .footer-up{
         background-image: url(../../public/img/footer-bg.jpg);
         background-size: cover;
+    }
+
+    .logo{
+        width: 50%;
+        background-image: url(../../public/img/dc-logo-bg.png);
+        background-repeat: no-repeat;
+        background-size: contain;
     }
 </style>
