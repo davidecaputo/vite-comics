@@ -1,8 +1,8 @@
 <template>
     <main>
-        <div class="bg-dark">
-            <div class="container py-5">
-                <span class="text-white fs-2">-- Content goes here --</span>
+        <div class="bg-dark p-4">
+            <div class="container py-5 d-flex flex-wrap gap-5">
+                <CardsComponent v-for="(card, index) in data" :key="index" :data="card" />
             </div>
         </div>
         <div class="bg-primary">
@@ -35,9 +35,19 @@
 </template>
 
 <script>
+    import CardsComponent from './CardsComponent.vue';
+    import { comics } from '../data/dc-comics';
+
     export default {
-        
+    data() {
+        return {
+            data: comics,
+        };
+    },
+    components: { 
+        CardsComponent 
     }
+}
 </script>
 
 <style lang="scss" scoped>
